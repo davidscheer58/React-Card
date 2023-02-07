@@ -3,22 +3,31 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+
+    <>
+    <button class="dupe">Duplication glitch</button>
+
+<button class="delete">Delete</button>
+
+ 
+    <button id="btn1">Change the color</button>
+
+
+
+
+<div class="card">
+    <img src="https://variety.com/wp-content/uploads/2019/06/spongebob-battle-remaster.png?w=681&h=383&crop=1" />
+    <p class="card_title title-white">Project 1 complete</p>
+  
+  <details>
+    <summary>Details</summary>
+    This card was created by David Scheer, this was a struggle but like Spongebob, we perservered and compleated it. In conclusion this wonderful picture is of spongebob with the title of Project 1 complete underneath is the details button I created that links to the required website.
+</details>
+ 
+</div>
+    </>
+    
   );
 }
 
